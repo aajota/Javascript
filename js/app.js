@@ -102,3 +102,34 @@ document.getElementById('user-Name').innerHTML = userName
 // 5<=3 //false
 // 4<='1' //false
 // 2<=2 // true
+
+
+
+
+
+
+
+//Funcoes
+
+// function soma(n1 ,n2){
+//     console.log(n1 + n2)
+    
+// }
+
+// soma(5 ,5)
+
+
+// function boasVindas(nome){
+//     alert(nome + ', seja bem vindo(a)')
+// }
+
+// boasVindas('Ajota')
+
+
+// function soma(n1, n2) {
+//     return n1 + n2
+
+// }
+
+// var resultado = soma(5,5)
+// console.log(resultado)
