@@ -6,13 +6,13 @@ document.getElementById('user-Name').innerHTML = userName
 
 //variaveis//
 
-//var nome = 'Mestre Yoda'
-//var idade = 100
-//var jedi = true
+var nome = 'Mestre Yoda'
+var idade = 100
+var jedi = true
 
-//console.log(typeof nome)
-//console.log(typeof idade)
-//console.log(typeof jedi)
+console.log(typeof nome)
+console.log(typeof idade)
+console.log(typeof jedi)
 
 
 
@@ -22,10 +22,10 @@ document.getElementById('user-Name').innerHTML = userName
 
 //operadores matematicos//
 
-// var n1 = 5
-// var n2 = 5
+var n1 = 5
+var n2 = 5
 
-// console.log(typeof n1)
+console.log(typeof n1)
 
 // + somar
 // - subitrair
@@ -42,13 +42,13 @@ document.getElementById('user-Name').innerHTML = userName
 
 
 
-// operadores de comparação
+// operadores de comparação//
 
-// var v1 = 5
-// var v2 = 5
+var v1 = 5
+var v2 = 5
 
-// var resultado = v1 === v2
-// console.log(resultado)
+var resultado = v1 === v2
+console.log(resultado)
 
 // Igual (==)
 // Retorna verdadeiro se os valores comparados forem iguais.
@@ -109,27 +109,110 @@ document.getElementById('user-Name').innerHTML = userName
 
 
 
-//Funcoes
+//Funcoes//
 
-// function soma(n1 ,n2){
-//     console.log(n1 + n2)
+function soma(n1 ,n2){
+    console.log(n1 + n2)
     
-// }
+}
 
-// soma(5 ,5)
-
-
-// function boasVindas(nome){
-//     alert(nome + ', seja bem vindo(a)')
-// }
-
-// boasVindas('Ajota')
+soma(5 ,5)
 
 
-// function soma(n1, n2) {
-//     return n1 + n2
+function boasVindas(nome){
+    alert(nome + ', seja bem vindo(a)')
+}
 
-// }
+boasVindas('Ajota')
 
-// var resultado = soma(5,5)
-// console.log(resultado)
+
+function soma(n1, n2) {
+    return n1 + n2
+
+}
+
+var resultado = soma(5,5)
+console.log(resultado)
+
+
+
+
+
+
+
+// Controle de fluxos //
+// sendo um cliente correntista do banco
+// posso sacar dinheiro em caixas eletronicos
+//para poder comprar em ligar onde não aceita o cartão de débito ou crédito
+
+// Cenario 1: Saque com sucesso
+// dado que meu saldo é de 1000 reais
+// quando faço um saque de 500 reais
+// então o valor do saque deve ser deduzido do meu saldo
+
+var saldo = 1000
+function saque(valor){
+    saldo = saldo - valor
+
+}
+
+saque(500)
+console.log(saldo)
+
+
+
+
+
+
+
+//cenario: 2 saque com valor superior ao saldo
+//dado que meu saldo é de 1000 reais
+//quando faço um saque de 1001 reais
+//então não deve deduzir do meu saldo
+// e deve exibir uma msg de alerta informando que o valor é superior
+
+var saldo = 1000
+function saque(valor){
+
+    if (valor > saldo) {
+    console.log('Valor do saque superior ao saldo')
+} else{
+    saldo = saldo - valor
+}
+   
+}
+
+saque(1001)
+console.log(saldo)
+
+
+
+
+
+
+
+// cenario 2: sa com limite máximo por saque
+// dado que meu saldo é de 1000 reais
+// e o valor máximo por operação é de 700
+// quando faço um saque no valor de 701 reais//então não deve deduzir do meu saldo
+// e deve mostrar uma msg de alerta informanso que o limite é superior
+
+
+var saldo = 1000
+function saque(valor){
+
+    if (valor > saldo) {
+    console.log('Valor do saque superior ao saldo')
+} else if (valor > 700) {
+    console.log('valor do saque é superior ao limite por oprração')
+}
+
+else{
+    saldo = saldo - valor
+}
+   
+}
+
+saque(701)
+console.log(saldo)
+
