@@ -216,3 +216,32 @@ else{
 saque(701)
 console.log(saldo)
 
+
+
+
+
+
+// Arrays//
+
+// var gaveteiro = ['meias', 'gravatas', 'documentos', 'salgadinhos']
+
+// console.log(gaveteiro[1])
+
+
+var personagens = ['Mestre yoda', 'Luck', ' Princesa leia', 'Darth vader']
+
+personagens.push('C3pO')
+personagens.push('R2D2')
+console.log(personagens)
+
+personagens.pop()
+
+personagens = personagens.filter(function(p){
+    return p !== 'Darth vader'
+})
+
+personagens = personagens.filter(function(p){
+    return p === 'Mestre yoda'
+})
+
+console.log(personagens)
