@@ -245,3 +245,26 @@ personagens = personagens.filter(function(p){
 })
 
 console.log(personagens)
+
+
+
+
+
+
+
+// Controles de repetição (laço,  loop)//
+
+var personagens = ['Mestre yoda', 'Luck', ' Princesa leia', 'Darth vader']
+
+personagens.forEach(function(p){
+    console.log(p)
+})
+
+for(var i in personagens){
+    console.log(personagens[i])
+}
+
+for(var i = 0; i <=10; i++){
+    console.log(i)
+    // codigo vai ser executado até a condição retornar false
+}
