@@ -251,10 +251,9 @@ console.log(personagens)
 
 
 
-
 // Controles de repetição (laço,  loop)//
 
-var personagens = ['Mestre yoda', 'Luck', ' Princesa leia', 'Darth vader']
+var personagens = ['Mestre yoda', 'Luck', ' Princesa leia', 'Darth vader', 'Ajota']
 
 personagens.forEach(function(p){
     console.log(p)
