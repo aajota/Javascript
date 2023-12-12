@@ -267,3 +267,26 @@ for(var i = 0; i <=10; i++){
     console.log(i)
     // codigo vai ser executado até a condição retornar false
 }
+
+
+//Objetos são (super variáveis)//
+
+var yoda = {
+    nome: 'MEstre Yoda',
+    idade: 100,
+    jedi: true,
+    mostraIdade: function(){
+        console.log(`A idade do ${this.nome} é ${this.idade} anos.`)
+    }
+}
+
+console.log(yoda)
+yoda.mostraIdade()
+
+// pode se usar assim tbm//
+
+// yoda.nome = 'Mestre Yoda'
+// yoda.idade = 100
+// yoda.jedi = true
+// yoda.outro_campo = 'alguma coisa'
+
