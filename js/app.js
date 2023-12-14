@@ -290,3 +290,17 @@ yoda.mostraIdade()
 // yoda.jedi = true
 // yoda.outro_campo = 'alguma coisa'
 
+
+
+
+
+//Constantes//
+const nome = 'Dart Vader'
+console.log(nome)
+
+nome = 'Mestre Yoda'
+console.log(nome)
+//criar massa de testes utilizando constantes//
+
+
+
