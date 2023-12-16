@@ -295,10 +295,10 @@ yoda.mostraIdade()
 
 
 //Constantes//
-const nome = 'Dart Vader'
+const nome = 'Vader'
 console.log(nome)
 
-nome = 'Mestre Yoda'
+nome = 'Yoda'
 console.log(nome)
 //criar massa de testes utilizando constantes//
 
