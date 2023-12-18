@@ -22,8 +22,8 @@ console.log(typeof jedi)
 
 //operadores matematicos//
 
-var n1 = 5
-var n2 = 5
+var n1 = 20
+var n2 = 20
 
 console.log(typeof n1)
 
