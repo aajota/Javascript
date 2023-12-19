@@ -273,7 +273,7 @@ for(var i = 0; i <=10; i++){
 
 var yoda = {
     nome: 'MEstre Yoda',
-    idade: 100,
+    idade: 150,
     jedi: true,
     mostraIdade: function(){
         console.log(`A idade do ${this.nome} é ${this.idade} anos.`)
