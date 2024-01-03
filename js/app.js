@@ -12,7 +12,7 @@ const LIST = [
     },
     {
         id: 3,
-        nome: 'Princesa leia',
+        nome: 'Princesa Leia',
         avatar: 'images/leia.png'
     },
     {
