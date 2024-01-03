@@ -48,5 +48,10 @@ const App = new Vue({
         title: 'Star Wars',
         userName: 'Ajota',
         characters: LIST
+    },
+    methods: {
+        like(userName){
+alert(`O personagem ${userName} recebeu um like!`)
+        }
     }
 })
