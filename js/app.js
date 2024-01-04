@@ -45,7 +45,7 @@ const LIST = [
 const App = new Vue({
     el: '#app',
     data: {
-        title: 'Star Wars',
+        title: 'Star Wars Lego',
         userName: 'Ajota',
         characters: LIST,
         searchName: ''
