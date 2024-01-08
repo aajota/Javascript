@@ -52,7 +52,7 @@ const App = new Vue({
     },
     methods: {
         like(userName) {
-            alert(`O personagem ${userName} recebeu um like!`)
+            alert(`O personagem ${userName} ganhou  um like!`)
         },
 
         remove(id){
