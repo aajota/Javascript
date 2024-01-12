@@ -60,7 +60,7 @@ cursor: pointer;
 }
 
 .characters .item .delete{
-   color: #f65;
+   color: rgb(252, 118, 103);
    cursor: pointer;
    }
 
